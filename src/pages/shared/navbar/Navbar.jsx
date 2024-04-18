@@ -4,22 +4,21 @@ const Navbar = () => {
       <li>
         <a>Home</a>
       </li>
-
       <li>
         <a>New Arrivals</a>
       </li>
       <li>
         <a>Used Car</a>
       </li>
-
       <li>
         <a>Blogs</a>
       </li>
     </>
   );
+
   return (
-    <>
-      <div className="navbar bg-base-100">
+    <div className="max-w-screen-xl mx-auto">
+      <div className="navbar z-10 bg-opacity-50 bg-black text-white fixed w-full">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -54,7 +53,7 @@ const Navbar = () => {
           <a className="btn">Button</a>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
