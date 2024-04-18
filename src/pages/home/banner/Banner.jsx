@@ -1,22 +1,48 @@
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import img1 from '../../../assets/image/img1.jpg'
+import img2 from '../../../assets/image/img2.jpg'
+import img3 from '../../../assets/image/img3.jpg'
+import img4 from '../../../assets/image/img4.jpg'
+import img5 from '../../../assets/image/img5.jpg'
+import img6 from '../../../assets/image/img6.jpg'
+import img7 from '../../../assets/image/img7.jpg'
+import img8 from '../../../assets/image/img8.jpg'
+
+
 
 
 const Banner = () => {
     return (
         <Carousel>
-        <div>
-            <img src="https://i.ibb.co/XCjv58S/75b6d8e92309c1d010c98f8d7592305b.jpg" />
-            <p className="legend">Legend 1</p>
+       
+        <div className='h-[750px]'>
+            <img src={img2} />
         </div>
-        <div>
-            <img src="https://i.ibb.co/St8kTRj/31158b7fd6b665dc137abf4d6700e3d6.jpg" />
-            <p className="legend">Legend 2</p>
+        <div className='h-[750px]'>
+            <img src={img3} />
         </div>
-        <div>
-            <img src="https://i.ibb.co/Vg96hnp/web-136350854.webp" />
-            <p className="legend">Legend 3</p>
+        <div className='h-[750px]'>
+            <img src={img4} />
         </div>
+        <div className='h-[750px]'>
+            <img src={img5} />
+        </div>
+        <div className='h-[750px]'>
+            <img src={img6} />
+        </div>
+        <div className='h-[750px]'>
+            <img src={img7} />
+        </div>
+        <div className='h-[750px]'>
+            <img src={img8} />
+        </div>
+        <div className='h-[750px]'>
+            <img  src={img1} />
+        </div>
+      
+        
+      
     </Carousel>
     );
 };
