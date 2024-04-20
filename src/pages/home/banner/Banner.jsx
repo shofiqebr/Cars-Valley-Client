@@ -1,5 +1,5 @@
-import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 import img1 from '../../../assets/image/img1.jpg'
 import img2 from '../../../assets/image/img2.jpg'
 import img3 from '../../../assets/image/img3.jpg'
@@ -14,7 +14,7 @@ import img8 from '../../../assets/image/img8.jpg'
 
 const Banner = () => {
     return (
-        <Carousel>
+        <Carousel autoPlay autoFocus stopOnHover infiniteLoop>
        
         <div className='h-[750px]'>
             <img src={img2} />
