@@ -12,7 +12,8 @@ import slide6 from '../../../assets/image/slide6.jpg'
 
 const Category = () => {
     return (
-        <Swiper
+      <div className='my-10'>
+        <Swiper 
         slidesPerView={4}
         spaceBetween={30}
         centeredSlides={true}
@@ -20,16 +21,29 @@ const Category = () => {
           clickable: true,
         }}
         modules={[Pagination]}
-        className="mySwiper"
+        className="mySwiper mb-20"
       >
-        <SwiperSlide><img className='h-52 w-60' src={slide1} alt="" /></SwiperSlide>
-        <SwiperSlide><img className='h-52 w-60' src={slide2} alt="" /></SwiperSlide>
-        <SwiperSlide><img className='h-52 w-60' src={slide3} alt="" /></SwiperSlide>
-        <SwiperSlide><img className='h-52 w-60' src={slide4} alt="" /></SwiperSlide>
-        <SwiperSlide><img className='h-52 w-60' src={slide5} alt="" /></SwiperSlide>
-        <SwiperSlide><img className='h-52 w-60' src={slide6} alt="" /></SwiperSlide>
+        <SwiperSlide><img className='h-52 w-60' src={slide1} alt="" />
+        <h3 className='text-center -mt-10 text-white uppercase text-xl font-medium'>Toyota</h3>
+        </SwiperSlide>
+        <SwiperSlide><img className='h-52 w-60' src={slide2} alt="" />
+        <h3 className='text-center -mt-10 text-white uppercase text-xl font-medium'>Honda</h3>
+        </SwiperSlide>
+        <SwiperSlide><img className='h-52 w-60' src={slide3} alt="" />
+        <h3 className='text-center -mt-10 text-white uppercase text-xl font-medium'>Ford</h3>
+        </SwiperSlide>
+        <SwiperSlide><img className='h-52 w-60' src={slide4} alt="" />
+        <h3 className='text-center -mt-10 text-white uppercase text-xl font-medium'>BMW</h3>
+        </SwiperSlide>
+        <SwiperSlide><img className='h-52 w-60' src={slide5} alt="" />
+        <h3 className='text-center -mt-10 text-white uppercase text-xl font-medium'>Mercedes-Benz</h3>
+        </SwiperSlide>
+        <SwiperSlide><img className='h-52 w-60' src={slide6} alt="" />
+        <h3 className='text-center -mt-10 text-white uppercase text-xl font-medium'>Nissan</h3>
+        </SwiperSlide>
         
       </Swiper>
+      </div>
     );
 };
 
