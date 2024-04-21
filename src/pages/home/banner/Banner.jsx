@@ -16,7 +16,7 @@ const Banner = () => {
     return (
         <Carousel autoPlay autoFocus stopOnHover infiniteLoop>
        
-        <div className='h-[750px]'>
+        <div className='h-[70px]'>
             <img src={img2} />
         </div>
         <div className='h-[750px]'>
