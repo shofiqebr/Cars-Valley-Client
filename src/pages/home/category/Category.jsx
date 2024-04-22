@@ -14,10 +14,10 @@ import SectionTitle from '../../../components/sectionTitle/SectionTitle';
 const Category = () => {
     return (
       <section>
-      <SectionTitle  subHeading={'Our most wanted'} heading={'Popular car'}></SectionTitle>
+      <SectionTitle  subHeading={'Our most luxurious'} heading={'Car brands'}></SectionTitle>
         <Swiper 
         slidesPerView={4}
-        spaceBetween={10}
+        spaceBetween={2}
         centeredSlides={true}
         pagination={{
           clickable: true,

@@ -2,6 +2,7 @@
 
 import Banner from './../home/banner/Banner';
 import Category from './category/Category';
+import PopularCars from './popularCars/PopularCars';
 
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
         <div>
             <Banner/>
             <Category></Category>
+            <PopularCars></PopularCars>
         </div>
     );
 };
