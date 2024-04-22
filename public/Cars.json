@@ -1,0 +1,224 @@
+[
+      {
+        "_id": "65371e1f5ba88ca9bd7d3762",
+        "name": "BMW M3",
+        "brandName": "BMW",
+        "price": "$70000",
+        "ShortDescription": "The BMW M3 is a high-performance sports sedan known for its powerful e…",
+        "rating": "4",
+        "type": "BMW",
+        "category": "popular",
+        "photo": "https://i.ibb.co/Q8HhMfv/pexels-photo-831475.jpg"
+      },
+      {
+        "_id": "65371eb15ba88ca9bd7d3763",
+        "name": "BMW X5",
+        "brandName": "BMW",
+        "price": "$60000",
+        "ShortDescription": "The BMW X5 is a versatile and spacious luxury SUV with advanced techno…",
+        "rating": "3",
+        "type": "BMW",
+        "category": "demanded",
+        "photo": "https://i.ibb.co/2dKh4kh/pexels-photo-112452.jpg"
+      },
+      {
+        "_id": "65371f125ba88ca9bd7d3764",
+        "name": "BMW 3 Series",
+        "brandName": "BMW",
+        "price": "$45000",
+        "ShortDescription": "The BMW 3 Series is a popular compact luxury sedan known for its balan…",
+        "rating": "4",
+        "type": "BMW",
+        "category": "popular",
+        "photo": "https://i.ibb.co/vjYgcKt/pexels-photo-12249436.jpg"
+      },
+      {
+        "_id": "65371f625ba88ca9bd7d3765",
+        "name": "BMW i8",
+        "brandName": "BMW",
+        "price": "$150000",
+        "ShortDescription": "The BMW 3 Series is a popular compact luxury sedan known for its balan…",
+        "rating": "5",
+        "type": "BMW",
+        "category": "popular",
+        "photo": "https://i.ibb.co/mNw05FY/pexels-photo-3802510.webp"
+      },
+      {
+        "_id": "653720a45ba88ca9bd7d3766",
+        "name": "Toyota Camry",
+        "brandName": "Toyota",
+        "price": " $25,000",
+        "ShortDescription": " The Toyota Camry is a reliable and fuel-efficient midsize sedan known…",
+        "rating": "4.6 (out of 5)",
+        "type": "Toyota",
+        "category": "demanded",
+        "photo": "https://i.ibb.co/fYy9nT7/pexels-photo-100653.jpg"
+      },
+      {
+        "_id": "653721065ba88ca9bd7d3767",
+        "name": "Toyota RAV4",
+        "brandName": "Toyota",
+        "price": " $30,000",
+        "ShortDescription": "The Toyota RAV4 is a popular compact SUV with a spacious interior and …",
+        "rating": " 4.7 (out of 5)",
+        "type": "Toyota",
+        "category": "popular",
+        "photo": "https://i.ibb.co/c2kvJM6/pexels-photo-116675.jpg"
+      },
+      {
+        "_id": "6537214d5ba88ca9bd7d3768",
+        "name": "Toyota Corolla",
+        "brandName": "Toyota",
+        "price": "  $20,000",
+        "ShortDescription": " The Toyota Corolla is a compact sedan known for its excellent fuel ef…",
+        "rating": "4.5 (out of 5)",
+        "type": "Toyota",
+        "category": "popular",
+        "photo": "https://i.ibb.co/YbJ8D18/pexels-photo-119435.jpg"
+      },
+      {
+        "_id": "653721955ba88ca9bd7d3769",
+        "name": "Toyota Highlander",
+        "brandName": "Toyota",
+        "price": "$40,000",
+        "ShortDescription": " The Toyota Corolla is a compact sedan known for its excellent fuel ef…",
+        "rating": "4.8 (out of 5)",
+        "type": "Toyota",
+        "category": "demanded",
+        "photo": "https://i.ibb.co/D8HKSkv/pexels-photo-810357.webp"
+      },
+      {
+        "_id": "653722345ba88ca9bd7d376a",
+        "name": "Ford Mustang",
+        "brandName": "Ford",
+        "price": "$45,000",
+        "ShortDescription": "The Ford Mustang is an iconic American muscle car known for its powerf…",
+        "rating": "4.7 (out of 5)",
+        "type": "Ford",
+        "category": "popular",
+        "photo": "https://i.ibb.co/XjP5nzV/pexels-photo-1007410.jpg"
+      },
+      {
+        "_id": "6537235c5ba88ca9bd7d376b",
+        "name": "Ford Explorer",
+        "brandName": "Ford",
+        "price": "$35,000",
+        "ShortDescription": " The Ford Explorer is a popular midsize SUV with three rows of seating…",
+        "rating": "4.5 (out of 5)",
+        "type": "Ford",
+        "category": "demanded",
+        "photo": "https://i.ibb.co/BBKq79q/pexels-photo-2036544.jpg"
+      },
+      {
+        "_id": "653723a95ba88ca9bd7d376c",
+        "name": "Ford Explorer",
+        "brandName": "Ford",
+        "price": "$35,000",
+        "category": "popular",
+        "ShortDescription": " The Ford Explorer is a popular midsize SUV with three rows of seating…",
+        "rating": "4.5 (out of 5)",
+        "type": "Ford",
+        "photo": "https://i.ibb.co/r34tZX3/pexels-photo-12687848.jpg"
+      },
+      {
+        "_id": "653723e05ba88ca9bd7d376d",
+        "name": "Ford Focus",
+        "brandName": "Ford",
+        "price": "$20,000",
+        "ShortDescription": "The Ford Focus is a compact car known for its affordability and fuel e…",
+        "rating": "4.3 (out of 5)",
+        "type": "Ford",
+        "category": "demanded",
+        "photo": "https://i.ibb.co/wK8fzgQ/istockphoto-1150931120-612x612.jpg"
+      },
+      {
+        "_id": "6537242f5ba88ca9bd7d376e",
+        "name": "Ford F-150",
+        "brandName": " Ford",
+        "price": "$40,000",
+        "ShortDescription": "The Ford F-150 is a best-selling full-size pickup truck known for its …",
+        "rating": "4.8 (out of 5)",
+        "type": "Ford",
+        "category": "popular",
+        "photo": "https://i.ibb.co/p1GVV8F/pexels-photo-5086489.webp"
+      },
+      {
+        "_id": "653724945ba88ca9bd7d376f",
+        "name": "Mercedes-Benz E-Class",
+        "brandName": "Mercedes-Benz",
+        "price": "$60,000",
+        "ShortDescription": "The Mercedes-Benz E-Class is a luxurious midsize sedan known for its e…",
+        "rating": "4.6 (out of 5)",
+        "type": "Mercedes-Benz",
+        "category": "demanded",
+        "photo": "https://i.ibb.co/DKSKz1y/pexels-photo-170811.jpg"
+      },
+      {
+        "_id": "653724c65ba88ca9bd7d3770",
+        "name": "Mercedes-Benz GLC",
+        "brandName": "Mercedes-Benz",
+        "price": "$45,000",
+        "ShortDescription": " The Mercedes-Benz GLC is a compact luxury SUV with a comfortable inte…",
+        "rating": "4.7 (out of 5)",
+        "type": "Mercedes-Benz",
+        "category": "demanded",
+        "photo": "https://i.ibb.co/p1GVV8F/pexels-photo-5086489.webp"
+      },
+      {
+        "_id": "6537253c5ba88ca9bd7d3771",
+        "name": "Mercedes-Benz S-Class",
+        "brandName": "Mercedes-Benz",
+        "price": "$90,000",
+        "ShortDescription": "The Mercedes-Benz S-Class is a flagship luxury sedan known for its opu…",
+        "rating": "4.9 (out of 5)",
+        "type": "Mercedes-Benz",
+        "category": "popular",
+        "photo": "https://i.ibb.co/P4K1cPt/pexels-photo-1335077.jpg"
+      },
+      {
+        "_id": "653725ee5ba88ca9bd7d3772",
+        "name": "Mercedes-Benz GLE",
+        "brandName": "Mercedes-Benz",
+        "price": "$55,000",
+        "ShortDescription": "The Mercedes-Benz GLE is a midsize luxury SUV with a spacious cabin an…",
+        "rating": "4.8 (out of 5)",
+        "type": "Mercedes-Benz",
+        "category": "demanded",
+        "photo": "https://i.ibb.co/DK9sm68/pexels-photo-193021.jpg"
+      },
+      {
+        "_id": "653726725ba88ca9bd7d3773",
+        "name": "Tesla Model 3",
+        "brandName": "Tesla",
+        "price": "$40,000",
+        "ShortDescription": "The Tesla Model 3 is an all-electric compact sedan known for its long …",
+        "rating": "4.7 (out of 5)",
+        "type": "Tesla",
+        "category": "demanded",
+        "photo": "https://i.ibb.co/N3mqnhy/istockphoto-157293636-612x612.jpg"
+      },
+      {
+        "_id": "653727445ba88ca9bd7d3774",
+        "name": "Tesla Model Y",
+        "brandName": "Tesla",
+        "price": "$50,000",
+        "ShortDescription": "The Tesla Model Y is an electric compact SUV with a spacious interior …",
+        "rating": "4.6 (out of 5)",
+        "type": "Tesla",
+        "category": "popular",
+        "photo": "https://i.ibb.co/C5czYpT/Value-My-Car-Free-Car-Valuation.png"
+      },
+      {
+        "_id": "6537276b5ba88ca9bd7d3775",
+        "name": "Tesla Model S",
+        "brandName": "Tesla",
+        "price": "$80,000",
+        "ShortDescription": "The Tesla Model S is a high-performance electric sedan known for its q…",
+        "rating": "4.9 (out of 5)",
+        "type": "Tesla",
+        "category": "popular",
+        "photo": "https://i.ibb.co/b5yDSJY/pexels-photo-1402787.jpg"
+      }
+    ]
+  
+  
