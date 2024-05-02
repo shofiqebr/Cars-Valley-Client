@@ -15,12 +15,37 @@ const Category = () => {
     return (
       <section>
       <SectionTitle  subHeading={'Our most luxurious'} heading={'Car brands'}></SectionTitle>
-        <Swiper 
-        slidesPerView={4}
-        spaceBetween={2}
-        centeredSlides={true}
+        <Swiper
+        slidesPerView={4} 
+       
+        // spaceBetween={2}
+        centeredSlides={false}
+       
+        container-start='true'
         pagination={{
           clickable: true,
+        }}
+        breakpoints={{
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 0,
+          },
+          425: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
         }}
         modules={[Pagination]}
         className="mySwiper mb-20"

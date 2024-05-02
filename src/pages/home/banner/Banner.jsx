@@ -16,28 +16,28 @@ const Banner = () => {
     return (
         <Carousel autoPlay autoFocus stopOnHover infiniteLoop>
        
-        <div className='h-[70px]'>
+        <div className='h-[350px] md:h-[500px] lg:h-[750px]'>
             <img src={img2} />
         </div>
-        <div className='h-[750px]'>
+        <div className='h-[350px] md:h-[500px] lg:h-[750px]'>
             <img src={img3} />
         </div>
-        <div className='h-[750px]'>
+        <div className='h-[350px] md:h-[500px] lg:h-[750px]'>
             <img src={img4} />
         </div>
-        <div className='h-[750px]'>
+        <div className='h-[350px] md:h-[500px] lg:h-[750px]'>
             <img src={img5} />
         </div>
-        <div className='h-[750px]'>
+        <div className='h-[350px] md:h-[500px] lg:h-[750px]'>
             <img src={img6} />
         </div>
-        <div className='h-[750px]'>
+        <div className='h-[350px] md:h-[500px] lg:h-[750px]'>
             <img src={img7} />
         </div>
-        <div className='h-[750px]'>
+        <div className='h-[350px] md:h-[500px] lg:h-[750px]'>
             <img src={img8} />
         </div>
-        <div className='h-[750px]'>
+        <div className='h-[350px] md:h-[500px] lg:h-[750px]'>
             <img  src={img1} />
         </div>
       

@@ -153,17 +153,7 @@
         "category": "recomended",
         "photo": "https://i.ibb.co/DKSKz1y/pexels-photo-170811.jpg"
       },
-      {
-        "_id": "653724c65ba88ca9bd7d3770",
-        "name": "Mercedes-Benz GLC",
-        "brandName": "Mercedes-Benz",
-        "price": "$45,000",
-        "ShortDescription": " The Mercedes-Benz GLC is a compact luxury SUV with a comfortable inte…",
-        "rating": "4.7 (out of 5)",
-        "type": "Mercedes-Benz",
-        "category": "recomended",
-        "photo": "https://i.ibb.co/p1GVV8F/pexels-photo-5086489.webp"
-      },
+  
       {
         "_id": "6537253c5ba88ca9bd7d3771",
         "name": "Mercedes-Benz S-Class",
