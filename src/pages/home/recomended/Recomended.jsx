@@ -19,8 +19,8 @@ const Recomended = () => {
 
     return (
         <section>
-             <SectionTitle heading={'Our Car Recomendations'} subHeading={'Checkout'}></SectionTitle>
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center items-center gap-3 ml-5 md:ml-1">
+             <SectionTitle heading={'Our Car Recomendations'} subHeading={'Check it out'}></SectionTitle>
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-center items-center gap-3 ml-5 md:ml-1 my-5">
                     {
                 recomendedCars.map(item => <RecomendedItem 
                     key={item._id}
