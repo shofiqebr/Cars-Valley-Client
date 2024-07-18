@@ -18,6 +18,10 @@ const Home = () => {
             <Recomended></Recomended>
             <Brands></Brands>
             <FeaturedItem></FeaturedItem>
+
+
+
+            
         </div>
     );
 };

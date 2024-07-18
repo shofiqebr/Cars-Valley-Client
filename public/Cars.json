@@ -29,7 +29,7 @@
         "ShortDescription": "The BMW 3 Series is a popular compact luxury sedan known for its balan…",
         "rating": "4",
         "type": "BMW",
-        "category": "recomended",
+        "category": "awesome",
         "photo": "https://i.ibb.co/vjYgcKt/pexels-photo-12249436.jpg"
       },
       {
@@ -84,7 +84,7 @@
         "ShortDescription": " The Toyota Corolla is a compact sedan known for its excellent fuel ef…",
         "rating": "4.8 (out of 5)",
         "type": "Toyota",
-        "category": "recomended",
+        "category": "awesome",
         "photo": "https://i.ibb.co/D8HKSkv/pexels-photo-810357.webp"
       },
       {
@@ -114,7 +114,7 @@
         "name": "Ford Explorer",
         "brandName": "Ford",
         "price": "$35,000",
-        "category": "popular",
+        "category": "awesome",
         "ShortDescription": " The Ford Explorer is a popular midsize SUV with three rows of seating…",
         "rating": "4.5 (out of 5)",
         "type": "Ford",
@@ -162,7 +162,7 @@
         "ShortDescription": "The Mercedes-Benz S-Class is a flagship luxury sedan known for its opu…",
         "rating": "4.9 (out of 5)",
         "type": "Mercedes-Benz",
-        "category": "popular",
+        "category": "awesome",
         "photo": "https://i.ibb.co/P4K1cPt/pexels-photo-1335077.jpg"
       },
       {
@@ -184,7 +184,7 @@
         "ShortDescription": "The Tesla Model 3 is an all-electric compact sedan known for its long …",
         "rating": "4.7 (out of 5)",
         "type": "Tesla",
-        "category": "recomended",
+        "category": "awesome",
         "photo": "https://i.ibb.co/N3mqnhy/istockphoto-157293636-612x612.jpg"
       },
       {

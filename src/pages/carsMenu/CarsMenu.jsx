@@ -1,11 +1,17 @@
-import React from 'react';
+
 import Cover from '../shared/cover/Cover';
+import menuImg from '../../assets/image/imgmenu.avif';
+import SectionTitle from '../../components/sectionTitle/SectionTitle';
+
 
 
 const CarsMenu = () => {
     return (
         <div>
-            <Cover img={menuImg}></Cover>
+              <SectionTitle heading={"All Cars At a Glance"}  subHeading={'watch'}/>
+            <Cover title='All Cars Menu' img={menuImg}></Cover>
+            
+          
         </div>
     );
 };

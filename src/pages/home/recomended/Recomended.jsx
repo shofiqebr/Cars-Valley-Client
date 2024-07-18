@@ -1,19 +1,21 @@
 import { useEffect, useState } from "react";
 import SectionTitle from "../../../components/sectionTitle/SectionTitle";
 import RecomendedItem from "./recomendedItem/RecomendedItem";
+import useMenu from "../../../hooks/useMenu";
 
 
 const Recomended = () => {
-    const [recomendedCars,setRecomendedCars] =useState([]);
-    useEffect( () => {
-        fetch('Cars.json')
-        .then (res=> res.json())
-        .then (data =>{
-            const recomendedCar = data.filter(item => item.category ==='recomended')
-            setRecomendedCars(recomendedCar.slice(0, 6)) })
-    },[]
-    )
-        
+    // const [recomendedCars,setRecomendedCars] =useState([]);
+    // useEffect( () => {
+    //     fetch('Cars.json')
+    //     .then (res=> res.json())
+    //     .then (data =>{
+    //         const recomendedCar = data.filter(item => item.category ==='recomended')
+    //         setRecomendedCars(recomendedCar.slice(0, 6)) })
+    // },[]
+    // )
+        const [menu] = useMenu();
+        const recomendedCars = menu.filter(item => item.category ==='recomended')
 
 
 
