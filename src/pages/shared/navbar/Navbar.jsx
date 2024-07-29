@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const NavOptions = (
@@ -13,9 +13,7 @@ const Navbar = () => {
         <a>Menu</a>
       </li>
       </NavLink>
-      <li>
-        <a>New Arrivals</a>
-      </li>
+      <li><Link to="/order/recommended">Order Car</Link></li>
       <li>
         <a>Used Car</a>
       </li>
