@@ -3,6 +3,7 @@ import awesome2 from '../../../assets/image/awesome2.jpg'
 import awesome3 from '../../../assets/image/awesome3.jpg'
 import awesome4 from '../../../assets/image/awesome4.jpg'
 import SectionTitle from '../../../components/sectionTitle/SectionTitle';
+import brandImg from '../../../assets/image/brand.jpg'
 
 
 const Brands = () => {
@@ -64,6 +65,115 @@ const Brands = () => {
                 </div>
                 <img  className='h-[450px] w-full rounded-xl border-4 border-orange-600' src={awesome4} alt="" />
             </section>
+
+
+
+            
+{/* ----------------------triangle shape----------------------------- */}
+
+
+
+
+<section>
+
+<div className='flex gap-10 justify-center items-center pt-20'>
+    <div className='w-60 h-60 border-2 border-blue-800 rounded-xl rotate-45'>
+        <div className='-rotate-45 relative'>
+            <div className=' absolute -left-6 top-5 text-center'>
+
+        <img className=' rounded-full h-32 w-32 border-2 border-orange-600' src={brandImg} alt="" />
+        <h1 className='font-bold text-xl pt-2 text-blue-800'>BMW</h1>
+            </div>
+
+        </div>
+    </div>
+    <div className='w-60 h-60 border-2 border-blue-800 rounded-xl rotate-45'>
+        <div className='-rotate-45 relative'>
+            <div className=' absolute -left-6 top-5 text-center'>
+
+        <img className=' rounded-full h-32 w-32 border-2 border-orange-600' src={brandImg} alt="" />
+        <h1 className='font-bold text-xl pt-2 text-blue-800'>BMW</h1>
+            </div>
+
+        </div>
+    </div>
+    <div className='w-60 h-60 border-2 border-blue-800 rounded-xl rotate-45'>
+        <div className='-rotate-45 relative'>
+            <div className=' absolute -left-6 top-5 text-center'>
+
+        <img className=' rounded-full h-32 w-32 border-2 border-orange-600' src={brandImg} alt="" />
+        <h1 className='font-bold text-xl pt-2 text-blue-800'>BMW</h1>
+            </div>
+
+        </div>
+    </div>
+    
+</div>
+
+
+
+
+<div className=' flex justify-center gap-10 -mt-[10px]'>
+<div className='w-60 h-60 border-2 border-blue-800 rounded-xl rotate-45'>
+        <div className='-rotate-45 relative'>
+            <div className=' absolute -left-6 top-5 text-center'>
+
+        <img className=' rounded-full h-32 w-32 border-2 border-orange-600' src={brandImg} alt="" />
+        <h1 className='font-bold text-xl pt-2 text-blue-800'>BMW</h1>
+            </div>
+
+        </div>
+    </div>
+     <div className='w-60 h-60 border-2 border-blue-800 rounded-xl rotate-45'>
+        <div className='-rotate-45 relative'>
+            <div className=' absolute -left-6 top-5 text-center'>
+
+        <img className=' rounded-full h-32 w-32 border-2 border-orange-600' src={brandImg} alt="" />
+        <h1 className='font-bold text-xl pt-2 text-blue-800'>BMW</h1>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<div className='flex justify-center items-center -mt-[10px] pb-20'>
+<div className='w-60 h-60 border-2 border-blue-800 rounded-xl rotate-45'>
+        <div className='-rotate-45 relative'>
+            <div className=' absolute -left-6 top-5 text-center'>
+
+        <img className=' rounded-full h-32 w-32 border-2 border-orange-600' src={brandImg} alt="" />
+        <h1 className='font-bold text-xl pt-2 text-blue-800'>BMW</h1>
+            </div>
+
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+
+
+{/* inverted card */}
+
+
+
+<section>
+<div className='flex flex-col gap-2'>
+    <div className=''>
+        <img className='w-80  h-44' src={brandImg} alt="" />
+    </div>
+    <div className='w-80 h-44 bg-blue-200 relative'>
+        <div className='absolute -top-14 border-t-8 border-r-8 border-white w-40 h-14 bg-blue-200 '>
+
+        </div>
+    </div>
+</div>
+</section>
+
         </div>
     );
 };
