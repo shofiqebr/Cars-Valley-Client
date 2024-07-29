@@ -18,7 +18,7 @@ const PopularCars = () => {
     return (
         <section>
             <SectionTitle heading={'Our Popular Cars'} subHeading={'order from'}></SectionTitle>
-            <div className="grid md:grid-cols-2 gap-10 my-10">
+            <div className="grid md:grid-cols-2 gap-10 my-10 place-items-center">
                 {
                     popular.map(item => <CarItem
                     key={item._id}
