@@ -21,7 +21,7 @@ const Order = () => {
     const popular = menu.filter(item => item.category === 'popular')
     return (
         <div>
-              <Cover img={orderCoverImg} title="Order Food"></Cover>
+              <Cover img={orderCoverImg} title="Order Car"></Cover>
             <Tabs defaultIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
                 <TabList>
                     <Tab>recommended</Tab>

@@ -107,13 +107,13 @@ const Brands = () => {
 
 
 
-<section>
-<div className='flex flex-col gap-2'>
+<section className=''>
+<div className='flex flex-col gap-2 rounded-xl '>
     <div className=''>
-        <img className='w-80  h-44' src={brandImg} alt="" />
+        <img className='w-80 rounded-xl  h-60' src={brandImg} alt="" />
     </div>
-    <div className='w-80 h-44 bg-blue-200 relative'>
-        <div className='absolute -top-14 border-t-8 border-r-8 border-white w-40 h-14 bg-blue-200 '>
+    <div className='w-80 h-36 bg-blue-200 relative rounded-xl'>
+        <div className='absolute -top-[70px] border-t-8 border-r-8 rounded-tr-xl border-white w-40 h-[70px] bg-blue-200 '>
 
         </div>
     </div>
