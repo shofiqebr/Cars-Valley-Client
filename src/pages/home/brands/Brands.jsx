@@ -8,6 +8,9 @@ import brandImg from '../../../assets/image/brand.jpg'
 
 const Brands = () => {
 
+
+    
+
     return (
 
 
@@ -112,9 +115,10 @@ const Brands = () => {
     <div className=''>
         <img className='w-80 rounded-xl  h-60' src={brandImg} alt="" />
     </div>
-    <div className='w-80 h-36 bg-blue-200 relative rounded-xl'>
+    <div className='w-80 h-36 bg-blue-200 relative rounded-b-xl rounded-tr-xl'>
         <div className='absolute -top-[70px] border-t-8 border-r-8 rounded-tr-xl border-white w-40 h-[70px] bg-blue-200 '>
-
+        <div className=' h-5 w-5 rounded-full shadow-special1'></div>
+        <div className='bg-black absolute lef h-5 w-5 rounded-full shadow-special1'></div>
         </div>
     </div>
 </div>
