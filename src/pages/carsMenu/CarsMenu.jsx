@@ -13,6 +13,9 @@ import useMenu from '../../hooks/useMenu';
 
 const CarsMenu = () => {
     const [menu] = useMenu();
+
+    
+
     const recommended = menu.filter(item => item.category === 'recommended')
     const awesome = menu.filter(item => item.category === 'awesome')
     const popular = menu.filter(item => item.category === 'popular')

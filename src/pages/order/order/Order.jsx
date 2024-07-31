@@ -14,11 +14,11 @@ const Order = () => {
     const initialIndex = categories.indexOf(category);
     const [tabIndex, setTabIndex] = useState(initialIndex);
     const [menu] = useMenu();
-    console.log(category);
+    // console.log(category);
 
-    const recommended = menu.filter(item => item.category === 'recommended')
-    const awesome = menu.filter(item => item.category === 'awesome')
-    const popular = menu.filter(item => item.category === 'popular')
+    const recommended = menu.filter(item => item.category === 'recommended');
+    const awesome = menu.filter(item => item.category === 'awesome');
+    const popular = menu.filter(item => item.category === 'popular');
     return (
         <div>
               <Cover img={orderCoverImg} title="Order Car"></Cover>
@@ -35,7 +35,7 @@ const Order = () => {
                 <TabPanel>
                     <OrderTab items={awesome}></OrderTab>
                 </TabPanel>
-                <TabPanel>
+                <TabPanel >
                     <OrderTab items={popular}></OrderTab>
                 </TabPanel>
                
