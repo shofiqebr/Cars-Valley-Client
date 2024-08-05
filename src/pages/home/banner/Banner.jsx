@@ -14,7 +14,16 @@ import img8 from '../../../assets/image/img8.jpg'
 
 const Banner = () => {
     return (
-        <Carousel autoPlay autoFocus stopOnHover infiniteLoop>
+        <Carousel 
+        autoPlay 
+        autoFocus 
+        stopOnHover 
+        infiniteLoop
+        showArrows={false}
+        showStatus={false}
+        showIndicators={false}
+        showThumbs={false}
+        >
        
         <div className='h-[350px] md:h-[500px] lg:h-[750px]'>
             <img src={img2} />

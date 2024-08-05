@@ -16,7 +16,7 @@ const Category = () => {
       <section>
       <SectionTitle  subHeading={'Our most luxurious'} heading={'Car brands'}></SectionTitle>
         <Swiper
-        slidesPerView={4} 
+        // slidesPerView={4} 
        
         // spaceBetween={2}
         centeredSlides={false}
@@ -44,6 +44,10 @@ const Category = () => {
           },
           1024: {
             slidesPerView: 4,
+            spaceBetween: 50,
+          },
+          1100: {
+            slidesPerView: 6,
             spaceBetween: 50,
           },
         }}
