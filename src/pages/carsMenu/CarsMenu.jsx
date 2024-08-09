@@ -1,6 +1,6 @@
 
 import Cover from '../shared/cover/Cover';
-import menuImg from '../../assets/image/imgmenu.avif';
+import menuImg from '../../assets/image/slide3.jpg';
 import SectionTitle from '../../components/sectionTitle/SectionTitle';
 import MenuCategory from '../menuCategory/MenuCategory';
 import recommendedImg from '../../assets/image/recommended.jpg'
